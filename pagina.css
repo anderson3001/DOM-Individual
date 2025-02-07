@@ -260,13 +260,13 @@ li {/*pra tirar os pontos da lista nao ordenada e os números das ordenadas*/
 
 .feedbacks{
     width: 1168px;
-    height: 236px;
     top: 792px;
     left: 136px;
     display: flex;
     flex-direction: column;
     padding-left: 40px;
     margin-left: 40px;
+    margin-bottom: 30px;
 }
 .feedbacks form{
     display: flex;
@@ -313,7 +313,27 @@ li {/*pra tirar os pontos da lista nao ordenada e os números das ordenadas*/
 .feedbacks form button:hover{
     background-color: #b4b2b2;
 }
-
+.usuarios{
+    background-color: #ECECEC;
+    width: 1138px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.usuarios p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 1072px;
+}
+.usuarios h2{
+    padding-top: 20px;
+    padding-left: 20px;
+}
 footer{
     background-color: rgb(36, 219, 107);
     height: hug(70px);
@@ -349,7 +369,7 @@ footer{
 /*RESPONSIVIDADE*/
 @media screen and (max-width: 430px) {
     header{
-        width: 430px;
+        width: 100%;
     }
     .sobre{
         height: 584px;
@@ -396,7 +416,7 @@ footer{
     .feedbacks{
         width: 384px;
         margin-left: 0px;
-        height: 236px;
+        margin-bottom: 10px;
     }
     .feedbacks form input{
         width: 373px;
@@ -407,11 +427,19 @@ footer{
     .feedbacks form button{
         width: 100px;
         translate: 0px;
-        padding-bottom: 20px;
+        padding: 20px;
+    }
+    .usuarios{
+        width: 374px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .usuarios p{
+        width:  348px;
     }
     footer{
-        width: 430px;
-        padding: 16px, 32px;
+        width: 100%;
+        padding: 16px 32px;
         flex-direction: column-reverse;
         gap: 25px;
     }
