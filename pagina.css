@@ -254,7 +254,6 @@ ol{
 li {/*pra tirar os pontos da lista nao ordenada e os números das ordenadas*/
     list-style-type: none;
     font-family: Alata;
-
   }
 
 
@@ -309,6 +308,7 @@ li {/*pra tirar os pontos da lista nao ordenada e os números das ordenadas*/
     flex-direction: column;
     align-items: center;
     translate: 450px;
+    font-family: Alata;
 }
 .feedbacks form button:hover{
     background-color: #b4b2b2;
