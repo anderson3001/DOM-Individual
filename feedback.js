@@ -6,6 +6,10 @@ function criaFeedback(){
     let div = document.createElement("div");//cria nova div
     let usuario = document.createElement("h2");//cria os elementos pro nome e feedbacks do usuario na div
     let feedbackFinal = document.createElement("p");
+    if (nome.value == "" || texto.value == ""){
+        alert("Preencha todos os campos!");
+        return;
+    }
     usuario.innerText = nome.value;
     feedbackFinal.innerText = texto.value;
     div.classList.add("usuarios")//coloca class na div
